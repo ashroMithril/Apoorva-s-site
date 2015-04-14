@@ -1,0 +1,100 @@
+@font-face {
+	font-family: Lato-Hai; src: url('/assets/Lato-Hai.ttf');
+}
+@font-face {
+	font-family: Lato-Lig; src: url('/assets/Lato-Lig.ttf');
+}
+@font-face {
+	font-family: Raleway-Light; src: url('/assets/Raleway-Light.otf');
+}
+
+.lato-lig {
+	font-family: Lato-Lig;
+}
+
+.lato-hai {
+	font-family: Lato-Hai;
+}
+
+.raleway-light {
+	font: 24px Raleway-Light, sans-serif;
+}
+
+.lato-lig-content {
+	font: 300 21px Lato-Lig, sans-serif;
+}
+
+.title {
+	font-size: 54pt;
+}
+
+.heading {
+	font-size: 24pt;
+	float: left;
+	width: 20%;
+	padding-top: 50px;
+}
+
+.content-container {
+	float: left;
+	width: 80%;
+	padding-top: 50px;
+}
+
+#about-content {
+	//font-size: 21pt;
+}
+
+#projects-content, #contact-content {
+	display: none;
+}
+
+.heading-list {
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.email-container {
+	float: left;
+	width: 20%;
+}
+
+
+.cmu-email-container {
+	float: left;
+	width: 25%;
+	padding-top: 3%;
+	padding-right: 6%;
+}
+
+#about, #projects, #contact {
+	cursor: pointer;
+}
+
+#pic-text {
+	color: blue;
+	cursor: pointer;
+}
+
+#vishy {
+	display: none;
+	position: absolute;
+	top: 202px;
+	left: 400px;
+}
+
+#emails {
+	display: block;
+	padding-top: 10px;
+}
+
+.container:after{
+	display: table;
+	content: ' ';
+	clear: both;
+}
+
+#linkedin-div {
+	padding-left: 158px;
+}
+
