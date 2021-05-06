@@ -1,2 +1,2 @@
-# ashroMithril.gihub.io
+# ashroMithril.github.io
 Apoorva's site
